@@ -95,33 +95,32 @@ Kemudian terdapat juga visualisasi data seperti pada gambar dibawah ini :
 ![korelasi](https://user-images.githubusercontent.com/83399671/140504400-247e78ed-d0cf-4bed-a339-42a67b185bcf.png)
 
 
-
-`Data kosong`
+`Tidak ada data kosong`
 
 ![data kosong](https://user-images.githubusercontent.com/83399671/140504452-768e6a88-5f20-4567-b33a-d76d8f3d4773.png)
 
 
-`kolom Charges berelasi dengan kolom bmi dan age`
+`Kolom charges berelasi dengan kolom bmi dan age`
 
 ![bmi dengan umur](https://user-images.githubusercontent.com/83399671/140504551-4b463c30-23fc-4050-9d42-4000af53b6c6.png)
 
 
-`kolom charges yang berelasi dengan kolom sex = perempuan`
+`Kolom charges yang berelasi dengan kolom sex = perempuan`
 
 ![kolom sex perempuan](https://user-images.githubusercontent.com/83399671/140504645-e5a0683e-cfdb-4dba-a6b0-eaa3d8a17517.png)
 
 
-`kolom charges yang berelasi dengan kolom sex = pria`
+`Kolom charges yang berelasi dengan kolom sex = pria`
 
 ![kolom sex pria](https://user-images.githubusercontent.com/83399671/140504698-47373b68-305e-4390-8153-95d09c97afd2.png)
 
 
-`kolom charges yang berelasi dengan kolom smoker = iya`
+`Kolom charges yang berelasi dengan kolom smoker = iya`
 
 ![kolom perokok](https://user-images.githubusercontent.com/83399671/140504755-8ba2806a-1760-4594-a13a-6fe816323f45.png)
 
 
-`kolom charges yang berelasi dengan kolom smoker = tidak`
+`Kolom charges yang berelasi dengan kolom smoker = tidak`
 
 ![kolom tidak perokok](https://user-images.githubusercontent.com/83399671/140504812-528c8418-45e9-40d7-b709-9d6a6947892c.png)
 
@@ -179,7 +178,7 @@ Melihat gambar visualisasi diatas dapat terlihat Gradient Boosting Regressor ada
 
 ##  Data Evaluation
 
-Dalam melakukan evaluasi menggunakan _metrics.r2_score_ untuk menghitung hasil score regresi dan _mean absolute error_ adalah rata-rata selisih mutlak nilai sebenarnya (aktual) dengan nilai prediksi (peramalan). Dibawah ini terlampir gambar hasil dari _metrics.r2_score_ dan _mean absolute error_ :
+Dalam melakukan evaluasi menggunakan _metrics.r2_score_ untuk menghitung hasil score regresi dan _mean absolute error_ adalah rata-rata selisih mutlak nilai sebenarnya (aktual) dengan nilai prediksi (peramalan). Dibawah ini terlampir hasil dari _metrics.r2_score_ dan _mean absolute error_ :
 
 `metrics.r2_score`
 
