@@ -104,27 +104,31 @@ Kemudian terdapat juga visualisasi data seperti pada gambar dibawah ini :
 
 ![bmi dengan umur](https://user-images.githubusercontent.com/83399671/140504551-4b463c30-23fc-4050-9d42-4000af53b6c6.png)
 
+Gambar diatas berarti kolom biaya asuransi yang dikeluarkan berelasi dengan indeks massa tubuh dan umur
 
 `Kolom charges yang berelasi dengan kolom sex = perempuan`
 
 ![kolom sex perempuan](https://user-images.githubusercontent.com/83399671/140504645-e5a0683e-cfdb-4dba-a6b0-eaa3d8a17517.png)
 
+Gambar diatas berarti kolom biaya asuransi yang dikeluarkan berelasi dengan kolom perempuan
 
 `Kolom charges yang berelasi dengan kolom sex = pria`
 
 ![kolom sex pria](https://user-images.githubusercontent.com/83399671/140504698-47373b68-305e-4390-8153-95d09c97afd2.png)
 
+Gambar diatas berarti kolom biaya asuransi yang dikeluarkan berelasi dengan kolom pria
 
 `Kolom charges yang berelasi dengan kolom smoker = iya`
 
 ![kolom perokok](https://user-images.githubusercontent.com/83399671/140504755-8ba2806a-1760-4594-a13a-6fe816323f45.png)
 
+Gambar diatas berarti kolom biaya asuransi yang dikeluarkan berelasi dengan kolom yang perokok
 
 `Kolom charges yang berelasi dengan kolom smoker = tidak`
 
 ![kolom tidak perokok](https://user-images.githubusercontent.com/83399671/140504812-528c8418-45e9-40d7-b709-9d6a6947892c.png)
 
-
+Gambar diatas berarti kolom biaya asuransi yang dikeluarkan berelasi dengan kolom tidak perokok
 
 ## Data Preparation
 
@@ -142,8 +146,13 @@ Seperti yang sudah disebutkan sebelumnya pada bagian _Solution statements_, beri
 
 ## Data Modeling
 
-Setelah melakukan pra-pemrosesan data yang baik pada tahap modeling akan dilakukan menggunakan 4 Algoritma dalam _machine learning_ yaitu : Linear Regression, Support Vector Regression, Random Forest Regressor, dan Gradient Boosting Regressor.
+Setelah melakukan pra-pemrosesan data yang baik pada tahap modeling akan dilakukan memakai model _baseline_ dari 4 Algoritma dalam _machine learning_ yang digunakan yaitu : Linear Regression, Support Vector Regression, Random Forest Regressor, dan Gradient Boosting Regressor.
 
+-   Model _baseline_
+
+    Pada tahap ini pembuatan model dasar menggunakan _modul_ scikit-learn yakni [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html), [Support Vector Regression](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html), [Random Forest Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html), dan [Gradient Boosting Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html) tanpa menggunakan parameter tambahan. Lalu melakukan prediksi kepada data ujinya.
+
+Hasil dari pembuatan model _baseline_ dapat terlihat pada tabel dibawah ini :
 ![perbandingan model](https://user-images.githubusercontent.com/83399671/140505643-fc5f827b-0b9d-4227-8104-6004c0c83de2.png)
 
 Terlihat pada tabel diatas menampilkan perbandingan hasil prediksi masing - masing algoritma dengan data aktualnya yang terdiri dari : Linear Regression (Lr), Support Vector Regression (svm), Random Forest Regressor (rf), dan Gradient Boosting Regressor (gr).
